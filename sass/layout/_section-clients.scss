@@ -2,7 +2,7 @@
     padding: 94px 0;
   }
 
-  .regular-customers{
+.regular-customers{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -25,7 +25,6 @@
 
     padding: 0px;
     margin: 0px;
-    
 }
 
 .clients li + li{
@@ -33,23 +32,24 @@
 }
 
 .link-client{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
-    fill: #AFB1B8;
-    border: 1px solid var(--color-icon);  
-    border-radius: 4px
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  fill: #AFB1B8;
+  border: 1px solid var(--color-icon);  
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
+
+    &:hover svg,
+    &:focus svg {
+    fill: var(--accent-color);
+  }
 }
 
-.link-client:hover,
-.link-client:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-
-.link-client:hover svg,
-.link-client:focus svg {
-  fill: var(--accent-color);
-}
