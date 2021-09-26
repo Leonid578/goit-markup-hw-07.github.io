@@ -39,6 +39,13 @@
     animation: var(--time-animation);
 }
 
+.checkbox:hover .icon-check,
+.checkbox:focus .icon-check {
+    border-color: var(--accent-color);
+    animation: var(--time-animation);
+}
+    
+
 
 
 
